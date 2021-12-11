@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Homepage My Library</title>
+
+    <link rel="stylesheet" href="static/style.css">
+
+</head>
+<body>
+    <div >
+        <h1 id="welcome">Welcome </h1>
+    </div>
+
+    <div id="nameDiv">  
+        
+            <input type="text" placeholder="Enter your name here" value="" id="nameUser">
+            <input type="button" value="Send" id="sendName">
+        
+    </div>
+    <br>
+    <div id="h2">
+        <h2>This is your beautiful personal library tracking app!</h2>
+    </div> 
+        <br>
+        <br>
+    <div id="p1">    
+        <p>Here you can keep track of which book you read, and add some comments on them!</p>
+    </div>
+    <br>
+    <div id="addform">
+        <form action="/save" method="GET">
+            <input type="text" placeholder="Enter the title" name="a" id="titleBook" >
+            <input type="text" placeholder="Enter the author name" id="authorName" name="n">
+            <input type="text" placeholder="Genre (polar, fiction,..)" id="genre" name="g">
+            <br>
+            <br>
+            <textarea placeholder="Ecrivez votre commentaire ici" rows="8" cols="50" id="textarea" name="c"></textarea>
+            <br><input type="submit" value="Add to your list" id="addBook">
+        </form>
+    </div>
+    
+
+    
+    
+    <br>
+    <div id="p2">
+        <p>You can make a search by title, author, or just a key-word</p>
+    </div>
+    <div id="searchform">
+        <form action="/search" method="get">
+            <input type="text" placeholder="Enter your search here" id="searchBox" name="q">
+            <input type="submit" value="Search" id="searchButton" >
+        </form>
+    </div>
+    <br>
+    <div id="p3">
+    <p>You also have a "To read list" where you can add the books you wish to read</p>
+    </div>
+    <br>
+    <div id="toread">
+        <form action="/add_to_wishlist" method="GET">
+            <input type="text" placeholder="Wish to read" id="wish" name="w">
+            <input type="text" placeholder="From" id="from" name="f">
+            <input type="submit" value="Add to wishlist" id="wishButton">
+        </form>
+    </div>
+
+    <div id="linksToAll">
+        <p id="goBooks"><a href="/books">See all your books</a> </p>
+        <p id="goWish"><a href="/wishlist">See your wish list</a> </p>
+        <p id="goChart"><a href="/image">Have a look to your chart</a></p>
+    </div>
+
+
+    <footer>
+        <p id="count">Today <span id="date">date</span>, you have <span id="countClick">0</span><span id="bookChange"> book</span> in your library</p>
+    </footer>
+
+
+
+    <script src="static/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Wishlist</title>
+
+    <link rel="stylesheet" href="static/style.css">
+    
+</head>
+<body>
+    <header>
+        <p id="link"><a href="/">Back</a> </p>
+    </header>
+    
+    <div id="wishList">
+        <p>$$WISHES$$</p>
+        
+    </div>
+    <div id = "removeWish">
+    <form action="/remove_from_wishlist" method="GET">
+        <input type="text" placeholder="Title of the book"  name = "r">
+        <input type="submit" value="Remove from the wishlist"  >
+        </form>
+    </div>
+
+    
+</body>
+</html>

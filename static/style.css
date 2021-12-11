@@ -1,0 +1,118 @@
+/* page index */
+#welcome{
+    font-size: 25px;
+    text-align: left;
+}
+
+#sendButton{
+    color: rgb(8, 141, 8);
+}
+
+#h2{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color: rebeccapurple;
+}
+
+#p1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: royalblue;
+}
+
+#addform{
+    text-align: center;
+}
+
+#titleBook{
+    color: rgb(241, 107, 107);
+}
+
+#authorName{
+    color: rgb(241, 107, 107);
+}
+
+#genre{
+    color: rgb(241, 107, 107)
+}
+
+
+#addBook{
+    color: rgb(8, 141, 8);
+}
+
+#textarea{
+    border-width: 4px;
+    color: rgb(241, 107, 107);
+}
+
+#p2{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: royalblue;
+}
+
+#searchform{
+    text-align: center;
+}
+
+#searchButton{
+    color: rgb(8, 141, 8);
+}
+
+#p3{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: royalblue;
+}
+
+#toread{
+    text-align: center;
+}
+
+#wishButton{
+    color: rgb(8, 141, 8);
+}
+
+#linksToAll{
+    text-align: right;
+    font-family: helvetica;
+}
+
+
+/* page books */
+
+#linksbooks{
+    text-align: center;
+}
+
+/* page save */
+#saveBooks{
+    text-align: center;
+    color: green;
+}
+
+/* page wishlist */
+#wishList{
+    text-align: center;
+}
+
+#removeWish{
+    text-align: center;
+}
+
+/* page delete  */
+#deletebooks{
+    text-align: center;
+    color: red;
+}
+
+/* page remove from wishlist */
+#removeWishes{
+    text-align: center;
+    color: red;
+}
